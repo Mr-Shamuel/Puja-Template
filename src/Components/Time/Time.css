@@ -1,0 +1,29 @@
+.timer-container {
+  display: flex;
+  height: 300px;
+}
+
+.time {
+  width: 100%;
+  margin: 40px 20px;
+  background-image: url("../../../src//image/timer_bg.png");
+  background-repeat: no-repeat;
+
+  background-position: center;
+  background-size: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+.time h1 {
+  font-size: 100px;
+  color: whitesmoke;
+  font-weight: bolder;
+}
+.time h2 {
+  font-size: 70px;
+  color: whitesmoke;
+  font-weight: bolder;
+}

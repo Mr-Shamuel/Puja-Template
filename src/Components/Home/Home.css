@@ -1,0 +1,11 @@
+.home {
+  height: 800vh;
+  background-image: url("../../../src//image/Background.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.main {
+  border: 4px solid #ffeb8a;
+  margin: 0px 30px;
+  border-radius: 7px;
+}
