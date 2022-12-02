@@ -54,8 +54,8 @@ const Home = () => {
                     timerMinutes={timerMinutes}
                     timerSeconds={timerSeconds}
                 ></Time>
-                {/* <Category></Category>
-                <UserType></UserType>
+                <Category></Category>
+                {/* <UserType></UserType>
                 <Profile></Profile> */}
 
             </div>

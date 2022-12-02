@@ -4,7 +4,7 @@ import './Category.css';
 const Category = () => {
     return (
         <div className='category'>
-            <div className="ctegoryImg my-5  ">
+            <div className="ctegoryImg mb-3 mx-1  ">
                 <img className='d-block mx-auto' src={cateImg} alt="" />
             </div>
 
