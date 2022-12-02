@@ -6,14 +6,19 @@
   background-repeat: no-repeat;
 }
 .main {
-  border: 15px solid #ffeb8a;
+  border: 3px solid #ffeb8a;
   margin: 0px 30px;
   border-radius: 10px;
 }
 
 /* Responsive  */
-/* Extra small devices (phones, 600px and down) */
+
 @media only screen and (min-width: 320px) and (max-width: 600px) {
+  .main {
+    border: 5px solid #ffeb8a;
+    margin: 0px 30px;
+    border-radius: 10px;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */

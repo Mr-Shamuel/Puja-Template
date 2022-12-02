@@ -47,18 +47,18 @@ const Home = () => {
     return (
         <div className='home'>
             <Header></Header>
-            {/* <div className="main">
+            <div className="main">
                 <Time
                     timerDays={timerDays}
                     timerHours={timerHours}
                     timerMinutes={timerMinutes}
                     timerSeconds={timerSeconds}
                 ></Time>
-                <Category></Category>
+                {/* <Category></Category>
                 <UserType></UserType>
-                <Profile></Profile>
+                <Profile></Profile> */}
 
-            </div> */}
+            </div>
             <Rewards></Rewards>
         </div>
     );
