@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Category from '../Category/Category';
 import Header from '../Header/Header';
 import Profile from '../Profile/Profile';
+import Rewards from '../Rewards/Rewards';
 import Time from '../Time/Time';
 import UserType from '../UserType/UserType';
 import './Home.css';
@@ -46,21 +47,19 @@ const Home = () => {
     return (
         <div className='home'>
             <Header></Header>
-            <div className="main">
+            {/* <div className="main">
                 <Time
-
                     timerDays={timerDays}
                     timerHours={timerHours}
                     timerMinutes={timerMinutes}
                     timerSeconds={timerSeconds}
-
                 ></Time>
-
-
                 <Category></Category>
                 <UserType></UserType>
                 <Profile></Profile>
-            </div>
+
+            </div> */}
+            <Rewards></Rewards>
         </div>
     );
 };
