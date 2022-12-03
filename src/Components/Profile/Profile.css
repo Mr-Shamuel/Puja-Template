@@ -94,7 +94,7 @@
 }
 
 .hiveBtns {
-  background-image: url(http://localhost:3000/static/media/coin_bg.79ceb645b322ccb42111.png);
+  background-image: url("../../../src//image/coin_bg.png");
   background-repeat: no-repeat;
   background-position: right;
   background-size: 91% 92%;
@@ -183,7 +183,7 @@
   }
 
   .hiveBtns {
-    background-image: url(http://localhost:3000/static/media/coin_bg.79ceb645b322ccb42111.png);
+    /* background-image: url(http://localhost:3000/static/media/coin_bg.79ceb645b322ccb42111.png); */
     background-repeat: no-repeat;
     background-position: right;
     background-size: 91% 92%;
