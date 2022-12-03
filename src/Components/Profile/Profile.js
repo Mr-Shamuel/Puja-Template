@@ -9,23 +9,22 @@ const Profile = () => {
     return (
         <div>
             {/* for user 1 */}
-            <div className='profileContainer my-5' >
-                <div className="row  ">
-                    <div className="col-md-2 left">
+            <div className='profileContainer  ' >
+                <div className="row">
+                    <div className=" col-sm-5  left">
                         <div className="rank">
-                            <img src={top1} height={"120px"} alt="" />
-
+                            <img src={top1} alt="" />
                         </div>
-                        <div className="flag">
-                            <div className="flagCon">
-                                <img className='m-3' src='https://clipart.world/wp-content/uploads/2022/01/National-Flag-of-India-clipart-download.png' height={"50px"} alt="" />
-                            </div>
+                        <div className="flagCon">
+                            <img src='https://clipart.world/wp-content/uploads/2022/01/National-Flag-of-India-clipart-download.png' alt="" />
+                        </div>
+
+                        <div className="  userPhoto ">
+                            <img className='' src={user} alt="" />
                         </div>
                     </div>
 
-                    <div className="col-md-2 userPhoto ">
-                        <img className='' src={user} alt="" />
-                    </div>
+
 
                     <div className="col-md-4 userInfo">
                         <div className="userInfoImg">
@@ -33,125 +32,18 @@ const Profile = () => {
                             <img src={usreInfo} alt="" />
                         </div>
                     </div>
-                    <div className="col-md-3 pt-5 mt-5 hivesContainer">
-                        <h1>HIVES</h1>
-                        <div className="hiveBtns ">
+                    <div className="col-md-3   hivesContainer">
+                        {/* <h1>HIVES</h1> */}
+                        {/* <div className="hiveBtns ">
                             <h2>1620212</h2>
-                        </div>
+                        </div> */}
 
                     </div>
 
                 </div>
 
             </div>
-            {/* for user 2 */}
-            <div className='profileContainer my-5' >
-                <div className="row  ">
-                    <div className="col-md-2 left">
-                        <div className="rank">
-                            <img src={top2} height={"120px"} alt="" />
 
-                        </div>
-                        <div className="flag">
-                            <div className="flagCon">
-                                <img className='m-3' src='https://clipart.world/wp-content/uploads/2022/01/National-Flag-of-India-clipart-download.png' height={"50px"} alt="" />
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="col-md-2 userPhoto ">
-                        <img className='' src={user} alt="" />
-                    </div>
-
-                    <div className="col-md-4 userInfo">
-                        <div className="userInfoImg">
-
-                            <img src={usreInfo} alt="" />
-                        </div>
-                    </div>
-                    <div className="col-md-3 pt-5 mt-5 hivesContainer">
-                        <h1>HIVES</h1>
-                        <div className="hiveBtns ">
-                            <h2>1620212</h2>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-            {/* for user 3 */}
-            <div className='profileContainer my-5' >
-                <div className="row  ">
-                    <div className="col-md-2 left">
-                        <div className="rank">
-                            <img src={top3} height={"120px"} alt="" />
-
-                        </div>
-                        <div className="flag">
-                            <div className="flagCon">
-                                <img className='m-3' src='https://clipart.world/wp-content/uploads/2022/01/National-Flag-of-India-clipart-download.png' height={"50px"} alt="" />
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="col-md-2 userPhoto ">
-                        <img className='' src={user} alt="" />
-                    </div>
-
-                    <div className="col-md-4 userInfo">
-                        <div className="userInfoImg">
-
-                            <img src={usreInfo} alt="" />
-                        </div>
-                    </div>
-                    <div className="col-md-3 pt-5 mt-5 hivesContainer">
-                        <h1>HIVES</h1>
-                        <div className="hiveBtns ">
-                            <h2>1620212</h2>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-            {/* for user 4 */}
-            <div className='profileContainer my-5' >
-                <div className="row  ">
-                    <div className="col-md-2 left">
-                        <div className="rank">
-                            <img src={top1} height={"120px"} alt="" />
-
-                        </div>
-                        <div className="flag">
-                            <div className="flagCon">
-                                <img className='m-3' src='https://clipart.world/wp-content/uploads/2022/01/National-Flag-of-India-clipart-download.png' height={"50px"} alt="" />
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="col-md-2 userPhoto ">
-                        <img className='' src={user} alt="" />
-                    </div>
-
-                    <div className="col-md-4 userInfo">
-                        <div className="userInfoImg">
-
-                            <img src={usreInfo} alt="" />
-                        </div>
-                    </div>
-                    <div className="col-md-3 pt-5 mt-5 hivesContainer">
-                        <h1>HIVES</h1>
-                        <div className="hiveBtns ">
-                            <h2>1620212</h2>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
 
         </div>
     );

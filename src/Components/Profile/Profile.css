@@ -1,65 +1,90 @@
 .profileContainer {
   background-image: url("../../../src//image/line.png");
   background-repeat: no-repeat;
-  background-position: center;
-  text-align: center;
+  background-position: top;
+  height: 100px;
   width: 100%;
-  height: 500px;
-  background-size: contain;
+  background-size: 95%;
+  position: relative;
 }
-.profileContainer .left {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 400px;
-  width: 200px;
-  padding-left: 220px;
-  justify-content: space-between;
+.left {
+  margin-left: 28px;
 }
-.rank {
-  margin-top: 83px;
+
+.rank img {
+  height: 25px;
+  margin-top: 15px;
 }
+
 .flagCon {
   background-image: url("../../../src/image/country_flag_bg.png");
   background-repeat: no-repeat;
   background-position: center;
-  text-align: center;
-  width: 100%;
-  height: 300px;
-  display: flex;
-  align-items: center;
-  background-size: contain;
+  background-size: 100%;
+  position: relative;
+  width: 16px;
+  height: 20px;
+  margin-top: 5px;
 }
 
-/* user photo */
+.flagCon img {
+  width: 10px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  margin: auto;
+}
+
 .userPhoto {
   background-image: url("../../../src/image/image_bg.png");
   background-repeat: no-repeat;
   background-position: center;
-  height: 490px;
-  background-size: 88%;
-  margin: 0px 55px;
-  display: flex;
-  align-items: center;
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background-size: 100% 100%;
+  top: 0px;
+  margin: auto;
+  left: -80px;
+  top: -56px;
+  right: 0;
+  bottom: 0;
 }
 .userPhoto img {
-  object-fit: cover;
-  height: 370px;
-  width: 275px;
-  padding-left: 10px;
-  margin: 0px;
+  width: 95%;
+  height: 98%;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.userInfoImg img {
+  width: 35%;
+  height: 45%;
+  position: absolute;
+  left: 65px;
+  top: -20px;
+  right: 0;
+  bottom: 0;
+  display: block;
+  margin: auto;
 }
 
 /* user info  */
-.userInfoImg img {
+/* .userInfoImg img {
   height: 100%;
   width: 100%;
   padding-top: 120px;
   margin-left: -100px;
-}
+} */
 
 /* hives btn  */
-.hivesContainer {
+/* .hivesContainer {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -85,4 +110,4 @@
   background-size: contain;
   margin-left: 70px;
   margin-top: 10px;
-}
+} */
