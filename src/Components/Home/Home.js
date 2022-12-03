@@ -45,7 +45,7 @@ const Home = () => {
 
 
     return (
-        <div className='home'>
+        <div className='home '>
             <Header></Header>
             <div className="main">
                 <Time

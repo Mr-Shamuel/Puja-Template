@@ -11,7 +11,7 @@ const Profile = () => {
             {/* for user 1 */}
             <div className='profileContainer  ' >
                 <div className="row">
-                    <div className=" col-sm-5  left">
+                    <div className=" col-md-3  left">
                         <div className="rank">
                             <img src={top1} alt="" />
                         </div>
@@ -32,11 +32,117 @@ const Profile = () => {
                             <img src={usreInfo} alt="" />
                         </div>
                     </div>
-                    <div className="col-md-3   hivesContainer">
-                        {/* <h1>HIVES</h1> */}
-                        {/* <div className="hiveBtns ">
+                    <div className="col-md-3  col-sm-3 hivesContainer  ">
+                        <h1>HIVES</h1>
+                        <div className="hiveBtns ">
                             <h2>1620212</h2>
-                        </div> */}
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            {/* for user 2 */}
+            <div className='profileContainer  ' >
+                <div className="row">
+                    <div className=" col-md-3  left">
+                        <div className="rank">
+                            <img src={top2} alt="" />
+                        </div>
+                        <div className="flagCon">
+                            <img src='https://clipart.world/wp-content/uploads/2022/01/National-Flag-of-India-clipart-download.png' alt="" />
+                        </div>
+
+                        <div className="  userPhoto ">
+                            <img className='' src={user} alt="" />
+                        </div>
+                    </div>
+
+
+
+                    <div className="col-md-4 userInfo">
+                        <div className="userInfoImg">
+
+                            <img src={usreInfo} alt="" />
+                        </div>
+                    </div>
+                    <div className="col-md-3  col-sm-3 hivesContainer  ">
+                        <h1>HIVES</h1>
+                        <div className="hiveBtns ">
+                            <h2>1620212</h2>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            {/* for user 3 */}
+            <div className='profileContainer  ' >
+                <div className="row">
+                    <div className=" col-md-3  left">
+                        <div className="rank">
+                            <img src={top3} alt="" />
+                        </div>
+                        <div className="flagCon">
+                            <img src='https://clipart.world/wp-content/uploads/2022/01/National-Flag-of-India-clipart-download.png' alt="" />
+                        </div>
+
+                        <div className="  userPhoto ">
+                            <img className='' src={user} alt="" />
+                        </div>
+                    </div>
+
+
+
+                    <div className="col-md-4 userInfo">
+                        <div className="userInfoImg">
+
+                            <img src={usreInfo} alt="" />
+                        </div>
+                    </div>
+                    <div className="col-md-3  col-sm-3 hivesContainer  ">
+                        <h1>HIVES</h1>
+                        <div className="hiveBtns ">
+                            <h2>1620212</h2>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            {/* user 4  */}
+            <div className='profileContainer  ' >
+                <div className="row">
+                    <div className=" col-md-3  left">
+                        <div className="rank">
+                            <img src={top1} alt="" />
+                        </div>
+                        <div className="flagCon">
+                            <img src='https://clipart.world/wp-content/uploads/2022/01/National-Flag-of-India-clipart-download.png' alt="" />
+                        </div>
+
+                        <div className="  userPhoto ">
+                            <img className='' src={user} alt="" />
+                        </div>
+                    </div>
+
+
+
+                    <div className="col-md-4 userInfo">
+                        <div className="userInfoImg">
+
+                            <img src={usreInfo} alt="" />
+                        </div>
+                    </div>
+                    <div className="col-md-3  col-sm-3 hivesContainer  ">
+                        <h1>HIVES</h1>
+                        <div className="hiveBtns ">
+                            <h2>1620212</h2>
+                        </div>
 
                     </div>
 
