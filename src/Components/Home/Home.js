@@ -4,6 +4,7 @@ import Header from '../Header/Header';
 import Profile from '../Profile/Profile';
 import Rewards from '../Rewards/Rewards';
 import Time from '../Time/Time';
+import UserProfile from '../UserProfile/UserProfile';
 import UserType from '../UserType/UserType';
 import './Home.css';
 const Home = () => {
@@ -58,6 +59,7 @@ const Home = () => {
                 <UserType></UserType>
 
                 <Profile></Profile>
+                <UserProfile></UserProfile>
 
             </div>
             <Rewards></Rewards>
