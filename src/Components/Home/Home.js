@@ -58,7 +58,8 @@ const Home = () => {
                 <Category></Category>
                 <UserType></UserType>
 
-                <Profile></Profile>
+                {/* <Profile></Profile> */}
+
                 <UserProfile></UserProfile>
 
             </div>

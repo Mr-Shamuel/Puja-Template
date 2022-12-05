@@ -1,0 +1,203 @@
+@media only screen and (min-width: 320px) and (max-width: 440px) {
+  .rank img {
+    width: 15px;
+    margin-left: 10px;
+  }
+  .flag {
+    height: 20px;
+    width: 20px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+
+  .flag img {
+    width: 15px;
+  }
+  .userPhoto {
+    min-width: 59px;
+  }
+  .userPhoto img {
+    padding: 2px;
+    width: 150px;
+  }
+
+  .userInfo {
+    min-width: 130px;
+    height: 70px;
+  }
+  .userInfoImg img {
+    margin-left: 20px;
+    margin-top: 15px;
+    min-height: 70px;
+    max-width: 100%;
+  }
+
+  .hivesContainer {
+    position: absolute;
+    padding-top: 10px;
+    right: 50px;
+  }
+  .hivesContainer h1 {
+    font-size: 10px;
+  }
+  .hivesContainer h2 {
+    font-size: 8px;
+  }
+
+  .hiveBtns {
+    padding: 5px;
+    width: 35px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 440px) and (max-width: 650px) {
+  .rank img {
+    width: 15px;
+    margin-left: 10px;
+  }
+  .flag {
+    height: 20px;
+    width: 20px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+
+  .flag img {
+    width: 15px;
+  }
+  .userPhoto {
+    min-width: 59px;
+  }
+  .userPhoto img {
+    padding: 2px;
+    width: 150px;
+  }
+
+  .userInfo {
+    height: 70px;
+  }
+  .userInfoImg img {
+    margin-left: 20px;
+    margin-top: 15px;
+    height: 75px;
+    width: 175px;
+  }
+
+  .hivesContainer {
+    position: absolute;
+    padding-top: 10px;
+    right: 50px;
+  }
+  .hivesContainer h1 {
+    font-size: 10px;
+  }
+  .hivesContainer h2 {
+    font-size: 8px;
+  }
+
+  .hiveBtns {
+    padding: 5px;
+    width: 35px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 650px) and (max-width: 768px) {
+  .rank img {
+    width: 25px;
+    margin-left: 20px;
+  }
+  .flag {
+    height: 30px;
+    width: 30px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+  }
+
+  .flag img {
+    width: 20px;
+  }
+  .userPhoto {
+    min-width: 59px;
+  }
+  .userPhoto img {
+    padding: 2px;
+    width: 150px;
+  }
+
+  .userInfo {
+    height: 70px;
+    position: relative;
+    left: 154px;
+    top: 31px;
+  }
+  .userInfoImg img {
+    position: absolute;
+    left: -102px;
+    top: -17px;
+    height: 95px;
+    width: 211px;
+  }
+
+  .hivesContainer {
+    position: absolute;
+    padding-top: 30px;
+    right: 60px;
+  }
+  .hivesContainer h1 {
+    font-size: 15px;
+  }
+  .hivesContainer h2 {
+    font-size: 12px;
+  }
+
+  .hiveBtns {
+    padding: 10px;
+    width: 65px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .rank img {
+    width: 35px;
+    margin-left: 25px;
+  }
+  .flag {
+    height: 35px;
+    width: 35px;
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+  }
+
+  .flag img {
+    width: 25px;
+  }
+  .userInfoImg img {
+    margin-left: 20px;
+    /* margin-top: 15px; */
+    min-height: 70px;
+    max-width: 70%;
+  }
+
+  .userPhoto {
+    background-size: 50%;
+    min-width: 53%;
+  }
+}

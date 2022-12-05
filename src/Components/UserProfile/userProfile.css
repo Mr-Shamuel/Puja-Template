@@ -1,0 +1,82 @@
+.userProfile {
+  background-image: url("../../image/line.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100px;
+  background-size: 100% 100%;
+  /* position: relative; */
+}
+
+.rank img {
+  width: 25px;
+}
+
+.flag {
+  background-image: url("../../../src/image/country_flag_bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  height: 30px;
+  width: 30px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.flag img {
+  width: 20px;
+  margin: 2px;
+  display: block;
+  margin: auto;
+}
+
+.userPhoto {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK8AAAD1CAYAAAAmh6XkAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA4RpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQ1IDc5LjE2MzQ5OSwgMjAxOC8wOC8xMy0xNjo0MDoyMiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDoxYWYyYzdhMy00YmU4LWNiNDctODNlYi05NjhmMGRmODY1ZTYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NDc5NkIzN0QzRkQyMTFFREIxNDlCOTY2Q0FBODI0MUUiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NDc5NkIzN0MzRkQyMTFFREIxNDlCOTY2Q0FBODI0MUUiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTkgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NDVmOGExMDctMWFmYS01MDQzLWJlNTQtOTQ3ZDFiNGFmZGY1IiBzdFJlZjpkb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6YmI0ZDIxMjktNmY2Zi00NDQ4LTkwZTEtZDg5MTJmYzM0MTM4Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+QPi4hQAABQFJREFUeNrs2s9ujFEcBuCZtvEnFirYWFlYWZG4CHdgb2VlQdjYsayNe7DgDiQuQiJ2tkKiDYqIKh3ni6lM6luctOn43jPPkxym7UjqzC9v33Om48nGw++j0ejoKMuzsq6X9W5EttO39/1PlwIHt3O1rPtlHffqL66V0WgyKX+PA7/3Lnnfl3XPy7iowzuJ/d67nxq3pgP8yEu5eMaT9bWd0OTd9bGsu2U9LuuUl7T9mS1rq6zNFoa3s1nW67KOeG0XYnh/lfV2pZH/0MmyrnhdF8rF7sC2+0GXwF+nkTy2NwwwcY+VdWL68dZs8n4o62ZZz+0TA3WjrAfTx5PZ24Yueb+UtWGPmJuzd+qet77W3S59m/3U0p6nLNtNBmp577zOdl4YsH/ndMmmkMrwYnhh3lb+/F4ODL3y6ryoDWB44QCd1z0vGaW378BmW4icXbUBnRd0XqjtDZKX4OQVvIQe2NQG1AaYN8NLcudVG0hoDWoDagMYXtB50XlBbYDDrw3eYSOjN/R1XttC5OyqDagNMPfolbwEJ6/gJbTzqg2oDeDABpXJq/MS23nVBtQGcGCD6uQVvIR2XrUBtQHmzfCS3HnVBhJag9pAU8nrwEbogc1VGamzqzagNoDaALW1QfISO706L7EML8EHNu+wEdEa1AaaSl4HNkIPbK7KSJ1dtQG1AdQGqK0NkpfY6dV50XlB54XKzqs2oDaA2gCVtUHyEju9Oi/Bndfv8xIRvJKXhhhe1AZQG6A6eV2VkRG9fbXBthA5u5KX3OnVeQnuvG4biAheyUtDDC9qA6gNUJ28rsrIiN6+2mBbiJxdyUvu9Oq8BHdetw1EBK/kpank1XkJ7bxuG0idXbUBtQHUBqitDZKX2OnVeQnuvN6kICJ4JS9NJa/OS2jnddtA6uxKXnKnV+cluPO6bSAieCUvkhckL+yb4UVtALUBqpPXmxRkRG9fbbAtRM6u5CV3enVegjuv2wYiglfy0lTy6ryEdl63DaTOruQld3p1XoI7r9sGIoJX8tIQw4vaAGoDSF4kLww2eb1JQUb09tUG20Lk7EpecqdX5yW487ptICJ4JS9NJa/OS2jnddtA6uxKXnKnV+cluPMKXtQGUBugtjZIXhKCV/LSVPLqvIR2XrcNpM6u5CV3enVegjuv2wYiglfy0hDDi9oAagNUJ6+rMjKit6822BYiZ1fykju9Oi/BnddtAxHBK3lpiOFFbQC1AaqT11UZGdHbVxtsC5GzK3nJnV6dl+DOK3hRG0BtgMraIHkJTV6dF50XdF6o7ryCF7UB1AaorQ2Sl4Tglbw0xPCiNoDaANXJ66qMjOiVvDTVeW0CkcGrNqA2wP+oDZKXhOCVvDTE8BJcGxzYCD2wuSojdXbVBtQGmHv0Sl6Ck1fwEtp51QbUBnBgg8rk1XmJ7bxqA2oDOLBBdfIKXkI7r9qA2gDzZnhJ7rxqAwmtQW1AbQDDCzovOi+oDXD4tcE7bGT0hr7Oa1uInF21AbUB5h69kpdYhpfg2qA1EHpg03nReUHnBcPLAhzYdF4SKq/Oi9oAhhcO0Hnd85JReiUvLSWv4CUzeCUvOi/8187bffWHTWKQrr3YLn9u70nev5bLOlPW6vTzKgWH7+nlmmftTGdydfaT48mTS90XxmX9LOtNWZ8MLgPVheu56ePP3W3DeCaFz9sfQix1B7ZX5cEFe0GYl78FGAD9CXghbnKqhQAAAABJRU5ErkJggg==);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+.userPhoto img {
+  max-width: 100%;
+  max-height: 100%;
+  padding: 2px;
+}
+.userInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.userInfoImg img {
+  max-width: 100%;
+}
+
+.hivesContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  width: 100%;
+}
+
+.hivesContainer h1 {
+  font-size: 13px;
+  font-weight: bolder;
+  color: whitesmoke;
+  padding-top: 15px;
+  margin: 0;
+}
+.hivesContainer h2 {
+  font-weight: bolder;
+  color: #d99446;
+  font-size: 10px;
+  padding-top: 8px;
+  text-align: center;
+}
+
+.hiveBtns {
+  background-image: url("../../../src//image/coin_bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 100% 100%;
+  width: 70%;
+  padding: 10px;
+}

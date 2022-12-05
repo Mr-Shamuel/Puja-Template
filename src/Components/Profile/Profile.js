@@ -1,5 +1,5 @@
 import React from 'react';
-import './Profile.css';
+// import './Profile.css';
 import top1 from '../../../src/image/top1_badge.png';
 import top2 from '../../../src/image/top2_badge.png';
 import top3 from '../../../src/image/top3_badge.png';
