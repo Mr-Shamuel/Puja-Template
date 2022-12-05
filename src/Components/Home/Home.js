@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Category from '../Category/Category';
 import Header from '../Header/Header';
-import Profile from '../Profile/Profile';
+// import Profile from '../Profile/Profile';
 import Rewards from '../Rewards/Rewards';
 import Time from '../Time/Time';
 import UserProfile from '../UserProfile/UserProfile';
@@ -16,7 +16,7 @@ const Home = () => {
 
     let interval;
     const startTimer = () => {
-        const countDownDate = new Date("December 13,2022").getTime();
+        const countDownDate = new Date("December 27,2022").getTime();
 
         interval = setInterval(() => {
             const now = new Date().getTime();
